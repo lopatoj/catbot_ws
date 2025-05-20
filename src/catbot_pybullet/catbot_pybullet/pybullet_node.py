@@ -44,7 +44,7 @@ class PyBulletNode(Node):
                 self.joint_states.velocity.append(0.0)
                 self.joint_states.effort.append(0.0)
 
-        self.get_logger().info(f"{self.joint_name_to_index}")
+        # self.get_logger().info(f"{self.joint_name_to_index}")
 
         p.createConstraint(
             self.robot_id,
