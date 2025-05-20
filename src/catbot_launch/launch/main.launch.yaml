@@ -1,0 +1,12 @@
+launch:
+  - arg:
+      name: "dt"
+      default: "0.01"
+
+  - node:
+      pkg: "scara_pybullet"
+      exec: "pybullet_node"
+      name: "pybullet_node_0"
+      param:
+        - name: "dt"
+          value: "$(var dt)"
