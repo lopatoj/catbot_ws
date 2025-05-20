@@ -1,0 +1,4 @@
+.vscode/ # to isolate each user's ROS vscode extension files
+install/
+build/
+log/
