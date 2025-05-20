@@ -6,8 +6,8 @@
     <link name="part_1">
         <inertial>
             <origin xyz="0 0 0" rpy="0 0 0"/>
-            <mass value="0"/>
-            <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+            <mass value="1e-09"/>
+            <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
         </inertial>
     </link>
     <!-- Link upper_link_1 -->
@@ -140,7 +140,7 @@
     <!-- Link upper_link_2_upper_link_2 -->
     <link name="upper_link_2_upper_link_2">
         <inertial>
-            <origin xyz="1.37041e-17 -0.00357124 2.17388e-17" rpy="0 0 0"/>
+            <origin xyz="9.80159e-18 -0.00357124 2.17453e-17" rpy="0 0 0"/>
             <mass value="0.0328541"/>
             <inertia ixx="3.65189e-06" ixy="-1.23455e-36" ixz="-4.57734e-21" iyy="4.27756e-05" iyz="1.0545e-36" izz="3.94031e-05"/>
         </inertial>
@@ -317,7 +317,7 @@
     <!-- Link lower_thigh_lower_thigh -->
     <link name="lower_thigh_lower_thigh">
         <inertial>
-            <origin xyz="-4.73109e-17 -0.009 1.41738e-17" rpy="0 0 0"/>
+            <origin xyz="-4.71887e-17 -0.009 1.42786e-17" rpy="0 0 0"/>
             <mass value="0.135358"/>
             <inertia ixx="1.79506e-05" ixy="6.83199e-36" ixz="9.9646e-22" iyy="0.000572228" iyz="1.39025e-35" izz="0.000563951"/>
         </inertial>
