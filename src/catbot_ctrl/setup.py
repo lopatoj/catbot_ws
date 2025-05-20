@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "jump_node = catbot_ctrl.jump_node:main"
         ],
     },
 )
