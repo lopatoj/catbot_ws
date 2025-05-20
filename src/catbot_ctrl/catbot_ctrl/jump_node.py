@@ -1,7 +1,6 @@
 import rclpy
 import rclpy.callback_groups
 from rclpy.node import Node
-from .controllers.odrive_controller import ODriveWrapper
 from .controllers.fk_controller import FKController
 from odrive.enums import AxisState
 from sensor_msgs.msg import Joy
