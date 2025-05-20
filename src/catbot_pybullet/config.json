@@ -1,0 +1,23 @@
+{
+    "url": "https://ricerobotics.onshape.com/documents/113d96fdef4adb1a3716524e/w/28f7dad7c74d67852509cca5/e/a5f92556bc33e188cf7c0d25?aa=true",
+    "output_format": "urdf",
+    "output_filename": "description/robot",
+    "assets_directory": "meshes",
+    "package_name": "catbot_sim",
+    "robot_name": "catbot",
+    "joint_properties": {
+        "*": {
+            "type": "passive"
+        },
+        "motor1": {
+            "friction": 0.0,
+            "max_effort": 50.0,
+            "max_velocity": 50.0
+        },
+        "motor2": {
+            "friction": 0.0,
+            "max_effort": 50.0,
+            "max_velocity": 50.0
+        }
+    }
+}
