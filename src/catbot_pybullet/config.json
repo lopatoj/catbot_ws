@@ -1,9 +1,9 @@
 {
-    "url": "https://ricerobotics.onshape.com/documents/113d96fdef4adb1a3716524e/w/28f7dad7c74d67852509cca5/e/a5f92556bc33e188cf7c0d25?aa=true",
+    "url": "https://ricerobotics.onshape.com/documents/113d96fdef4adb1a3716524e/w/28f7dad7c74d67852509cca5/e/a5f92556bc33e188cf7c0d25",
     "output_format": "urdf",
     "output_filename": "description/robot",
     "assets_directory": "meshes",
-    "package_name": "catbot_sim",
+    "package_name": "catbot_pybullet",
     "robot_name": "catbot",
     "joint_properties": {
         "*": {
