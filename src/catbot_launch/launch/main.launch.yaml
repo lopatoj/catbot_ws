@@ -4,7 +4,7 @@ launch:
       default: "0.01"
 
   - node:
-      pkg: "scara_pybullet"
+      pkg: "catbot_pybullet"
       exec: "pybullet_node"
       name: "pybullet_node_0"
       param:

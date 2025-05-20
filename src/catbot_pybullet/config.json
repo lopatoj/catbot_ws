@@ -5,17 +5,27 @@
     "assets_directory": "meshes",
     "package_name": "catbot_pybullet",
     "robot_name": "catbot",
+    "use_fixed_links": true,
     "joint_properties": {
         "*": {
-            "type": "passive"
+            "actuated": false,
+            "type": "continuous",
+            "friction": 0.0
+        },
+        "passive4": {
+            "type": "revolute",
+            "limits": [-0.95889874679, 0.95889874679]
         },
         "motor1": {
-            "friction": 0.0,
+            "actuated": true,
+            "type": "revolute",
+            "limits": [-0.78054407359, 1.96935271359],
             "max_effort": 50.0,
             "max_velocity": 50.0
         },
         "motor2": {
-            "friction": 0.0,
+            "actuated": true,
+            "type": "revolute",
             "max_effort": 50.0,
             "max_velocity": 50.0
         }
